@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+
+/* -------------------------------------------------- Colors */
+
+.bg-color-name-title {
+  background-color: #090b0d;
+}
+
+.ui-menu-color-home {
+  background-color: #d94f30;
+}
+
+.ui-menu-color-CV {
+  background-color: #594302;
+}
+
+.ui-menu-color-contact {
+  background-color: #f2cb05;
+}
+
+.ui-menu-color-download {
+  background-color: #730217;
+}
+
+/* Color Theme Swatches in Hex */
+.Flavour-1-hex {
+  color: #730217;
+}
+.Flavour-2-hex {
+  color: #090b0d;
+}
+.Flavour-3-hex {
+  color: #f2cb05;
+}
+.Flavour-4-hex {
+  color: #594302;
+}
+.Flavour-5-hex {
+  color: #d94f30;
+}
+
+header {
+  margin: 0;
+}
+
+/* -------------------------------------------------- Heading */
+
+.heading {
+  margin-left: 50px;
+}
+
+.logo {
+  background: url("../images/stefan_090B0D.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+
+.name {
+  font-family: "Exo", sans-serif;
+  font-weight: 100;
+  font-size: 46px;
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  color: #ffffff;
+}
+
+.list-inline-item:not(:last-child) {
+  margin: 0;
+}
+
+.menucontainer{
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem{
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#nav {
+    margin: 0;
+}
+
+/* -------------------------------------------------- Hover.css */
+
+
+a.hvr-sweep-to-bottom:before {
+    background: rgba(0,0,0,0.2);
+    height: 120px;
+}
