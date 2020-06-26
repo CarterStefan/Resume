@@ -75,9 +75,12 @@ header {
   margin: 0;
 }
 
-
+/* -------------------------------------------- Special padding/ margins/text */
+div#map {min-height: 300px;}
 
 /* -------------------------------------------- Special padding/ margins/text */
+
+
 
 h1, h2, h3, h4{
     margin: 0;

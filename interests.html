@@ -71,7 +71,7 @@
 
 	<section class="container-fluid">
 		<div class="row">
-			<div class="col-md-4 bg-color-interests section-column">
+			<div class="col-md-4 bg-color-interests ">
 				<div class="row">
 					<div class="col-12">
 						<h3 class="section-heading uppercase">Conferences & Meetups Attended</h3>
@@ -210,8 +210,21 @@
 			</div>
 		</div>
 	</footer>
-	<script>
-		var APIKey = "AIzaSyB6Mtga96rxT7bdX2-ufaC_gJ80zqE9fLc"; 
+    <script>
+    function initMap() {
+        let map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 3,
+            center: {
+                lat: 46.619261,
+                lng: -33.134766
+            }
+        });
+    }
+    </script>
+	<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+	</script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6Mtga96rxT7bdX2-ufaC_gJ80zqE9fLc&callback=initMap">
 	</script>
 </body>
 
