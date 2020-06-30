@@ -12,6 +12,25 @@
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css" />
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function(){
+      emailjs.init("user_SHunjZOb2DE9ddiTrDf0p");
+   })();
+	</script>
+
+	<script type="text/javascript">
+		window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate the contact number value
+                this.contact_number.value = Math.random() * 100000 | 0;
+                emailjs.sendForm('gmail', 'stefan_contact', this);
+            });
+        }
+	</script>
+
 </head>
 
 <body>
@@ -45,13 +64,13 @@
 									<span>Contact</span></a>
 							</li>
 
-                            <li class="col-6 col-sm-2 ui-menu-color-interests list-inline-item menuitem">
+							<li class="col-6 col-sm-2 ui-menu-color-interests list-inline-item menuitem">
 								<a href="interests.html"
 									class="hvr-sweep-to-bottom"><i class="fas fa-users" aria-hidden="true"></i>
 									<span>interests</span></a>
 							</li>
 
-                            <li class="col-6 col-sm-2 ui-menu-color-github list-inline-item menuitem">
+							<li class="col-6 col-sm-2 ui-menu-color-github list-inline-item menuitem">
 								<a href="github.html"
 									class="hvr-sweep-to-bottom"><i class="fab fa-github" aria-hidden="true"></i>
 									<span>Github</span></a>
@@ -76,17 +95,13 @@
 				<h5 class="uppercase text-center">Let's work together!</h5>
 
 				<div class="center-form">
-					<form>
-						<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
-						<input type="email" name="email" id="email" class="form-control" placeholder="Email" required/>
+					<form id="contact-form">
+						<input type="hidden" name="contact_number">
+						<input type="text" name="fullname" id="fullname" class="form-control" placeholder="Name" required/>
+						<input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required/>
 						<textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project Description" required></textarea>
-						<div class="form-row text-center">
-							<div class="col">
-								<button type="submit" class="btn btn-secondary">
-                                Send Project Request!
-                            </button>
-							</div>
-						</div>
+						<input type="submit" value="Send">
+
 					</form>
 				</div>
 
@@ -109,8 +124,7 @@
 				<h5 class="uppercase general-sub">Download</h5>
 				<p class="inline-block">
 					Need a printable version of my CV? Download it here.
-					<a href="assets/cv/Carter_Stefan_CV.docx.pdf"
-									target="_blank" class="cv-pdf">
+					<a href="assets/cv/Carter_Stefan_CV.docx.pdf" target="_blank" class="cv-pdf">
 						<i class="fas fa-file-download" aria-hidden="true"></i>
 						<span class="sr-only">Download Link</span>
 					</a>
@@ -153,6 +167,7 @@
 			</div>
 		</div>
 	</footer>
+	
 </body>
 
 </html>
