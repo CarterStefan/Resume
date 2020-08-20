@@ -119,6 +119,13 @@ h1, h2, h3, h4{
     color:#fafafa;
 }
 
+.inner-section-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 
 /* -------------------------------------------------- Heading */
 
@@ -316,6 +323,11 @@ footer {
 
 .three-reasons-heading{
     margin-bottom: 15px;
+    color: #d94f30;
+}
+
+.about-me{
+    text-align: justify;
 }
 
 /* -------------------------------------------------- Personal Info */
@@ -353,6 +365,49 @@ footer {
 .personal-info-item .value{
     position: relative;
     width: 60%;
+}
+
+.work-history-title{
+    color: #fafafa;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.timeline-item-home{
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+}
+
+.timeline-item-home p{
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item-home:before{
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item-home:after{
+    width:12px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    top: 2.4em;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
 }
 
 /* -------------------------------------------------- Progress Bar*/
