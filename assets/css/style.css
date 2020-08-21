@@ -322,12 +322,14 @@ footer {
 }
 
 .three-reasons-heading{
-    margin-bottom: 15px;
+    margin-top: 20px;
     color: #d94f30;
+    padding: 20px;
 }
 
 .about-me{
     text-align: justify;
+    padding: 20px;
 }
 
 /* -------------------------------------------------- Personal Info */
@@ -410,24 +412,18 @@ footer {
     content: '';
 }
 
-/* -------------------------------------------------- Progress Bar*/
+/* -------------------------------------------------- CV / PROJECTS */
 
-.progress {
-    position: relative;
-    height: 25px;
-    margin-bottom: 4px;
+
+.cv-heading{
+    margin-top: 20px;
+    color: #594302;
+    padding: 20px;
 }
 
-.progress-type{
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: #fafafa;
-}
-
-.progress-section{
-    margin: 40px 20px;
+.project-image{
+    height: 240px;
+    width: 100%;
 }
 
 /* -------------------------------------------------- Work History */
