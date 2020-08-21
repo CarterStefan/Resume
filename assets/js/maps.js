@@ -9,11 +9,13 @@
         });
 
         let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        
 
         let locations = [
-          { lat: 52.8159772, lng: -2.0894877 },
+          { lat: 54.5706383, lng: -1.2374303 },  
           { lat: 52.9943096, lng: -2.1536525 },
-          { lat: 52.7659617, lng: -2.1120544 }
+          { lat: 52.8159772, lng: -2.0894877 },
+          { lat: 52.8167014, lng: -2.1246409 }          
         ];
 
         let markers = locations.map(function(location, i) {

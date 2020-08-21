@@ -421,10 +421,22 @@ footer {
     padding: 20px;
 }
 
-.project-image{
-    height: 240px;
-    width: 100%;
+.project-heading{
+    margin: 20px;
+    color: #090b0d;
+    padding: 20px;    
 }
+
+.project-heading:hover{
+    margin: 20px;
+    color: #090b0d;
+    padding: 20px;
+}
+
+.project-link{
+    padding: 20px;
+}
+
 
 /* -------------------------------------------------- Work History */
 
