@@ -127,29 +127,39 @@
           <h3 class="contact-heading uppercase text-center">
             Would you like to get in touch?
           </h3>
-          <h5 class="uppercase text-center instruction">Please use the form below.</h5>
+          <h5 class="uppercase text-center instruction">
+            Please use the form below.
+          </h5>          
+        </div>
+      </div>
 
-          <div>
-            <h5 style="display:none;" class="uppercase text-center thank-you">Thanks for getting in touch! I will respond soon.</h5>
-          </div>
-
-          <div class="center-form">
+      <div class="row bg-color-contact">
+        <div class="col-3">
+        </div>
+        <div class="col-6">
+          <div class="form-group">
             <form id="contact-form">
               <input type="hidden" name="contact_number" />
               <label>Name</label>
-              <input type="text" name="user_name" />
+              <input class="form-control" placeholder="Your Name" type="text" name="user_name" />
+              <br />
               <label>Email</label>
-              <input type="email" name="user_email" />
+              <input class="form-control" placeholder="example@example.com" type="email" name="user_email" />
+              <br />
               <label>Message</label>
-              <textarea name="message"></textarea>
-              <button
-                id="form-submit"
-                type="submit"
-                value="Send"
-                > SUBMIT
+              <textarea class="form-control" rows="5" name="message"></textarea>
+              <button class="btn btn-primary" id="form-submit" type="submit" value="Send">
+                SUBMIT
               </button>
-            </form>
+            </form>            
           </div>
+          <div>
+            <h5 style="display: none;" class="uppercase text-center thank-you">
+              Thanks for getting in touch! I will respond soon.
+            </h5>
+          </div>
+        </div>
+        <div class="col-3">
         </div>
       </div>
     </section>
@@ -182,12 +192,12 @@
         </div>
       </div>
     </footer>
-    
+
     <script>
-$( "button" ).click(function() {
-  $( "h5.thank-you" ).show( "slow" );
-  $( "h5.instruction").hide( "fast" );
-});
-</script>
+      $("button").click(function () {
+        $("h5.thank-you").show("slow");
+        $("h5.instruction").hide("fast");
+      });
+    </script>
   </body>
 </html>
