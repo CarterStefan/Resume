@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900|Exo:100,200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900|Exo:100,200,300,400,500,600,700,800,900");
 
 /* -------------------------------------------------- Colors */
 
@@ -6,8 +6,8 @@
   background-color: #fafafa;
 }
 
-.bg-color-three-reasons{
-    background-color: #fafafa;
+.bg-color-three-reasons {
+  background-color: #fafafa;
 }
 
 .ui-menu-color-home {
@@ -23,35 +23,35 @@
 }
 
 .ui-menu-color-interests {
-    background-color: #3207B0;
+  background-color: #3207b0;
 }
 
 .ui-menu-color-github {
-    background-color: #21B07C;
+  background-color: #21b07c;
 }
 
 .ui-menu-color-download {
   background-color: #730217;
 }
 
-.bg-color-personal-info{
-    background-color: #d94f30;
+.bg-color-personal-info {
+  background-color: #d94f30;
 }
 
-.bg-color-work-history{
-    background-color: #594302;
+.bg-color-work-history {
+  background-color: #594302;
 }
 
-.bg-color-contact{
-    background-color: #f2cb05;
+.bg-color-contact {
+  background-color: #f2cb05;
 }
 
-.bg-color-interests{
-    background-color: #3207B0;
+.bg-color-interests {
+  background-color: #3207b0;
 }
 
-.bg-color-github{
-    background-color: #21B07C;
+.bg-color-github {
+  background-color: #21b07c;
 }
 
 /* Color Theme Swatches in Hex */
@@ -75,57 +75,62 @@ header {
   margin: 0;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 /* -------------------------------------------- Special padding/ margins/text */
-div#map {min-height: 300px;}
+div#map {
+  min-height: 300px;
+}
 
 /* -------------------------------------------- Special padding/ margins/text */
 
-
-
-h1, h2, h3, h4{
-    margin: 0;
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
 }
 
-.uppercase{
-    text-transform: uppercase;
+.uppercase {
+  text-transform: uppercase;
 }
 
-.general-sub{
-    font-family: "Exo", sans-serif;
-    font-weight: 300;  
-    color: #fafafa;
-
+.general-sub {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
 }
 
-.inline-block{
-    display: inline-block;
+.inline-block {
+  display: inline-block;
 }
 
-.row-table{
-    display: table;
+.row-table {
+  display: table;
 }
 
-.section-column{
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
+.section-column {
+  display: table-cell;
+  padding: 0 30px 30px;
+  float: none;
 }
 
-.section-heading{
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-    color:#fafafa;
+.section-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  color: #fafafa;
 }
 
-.inner-section-heading{
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
+.inner-section-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
 }
-
 
 /* -------------------------------------------------- Heading */
 
@@ -177,7 +182,7 @@ h1, h2, h3, h4{
   -webkit-transition: all 0.5s ease-in-out;
 }
 
-  .logo-github {
+.logo-github {
   background: url("../images/stefan_21B07C.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -186,10 +191,10 @@ h1, h2, h3, h4{
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-  }
+}
 
 .name {
-  font-family: "robotto", sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: 900;
   font-size: 80px;
   margin-top: 50px;
@@ -209,335 +214,347 @@ h1, h2, h3, h4{
   margin: 0;
 }
 
-.menucontainer{
-    font-size: 0;
+.menucontainer {
+  font-size: 0;
 }
 
 #nav li {
-    font-size: 14px;
-    padding: 0px;
+  font-size: 14px;
+  padding: 0px;
 }
 
-.menuitem{
-    height: 120px;
-    text-align: center;
-    padding: 0;
+.menuitem {
+  height: 120px;
+  text-align: center;
+  padding: 0;
 }
 
 .menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #ffffff;
-    height: 120px;
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+  height: 120px;
 }
 
 .menuitem a i {
-    padding-top: 35px;
-    display: block;
-    color: #fafafa;
-    font-size: 26px;
+  padding-top: 35px;
+  display: block;
+  color: #fafafa;
+  font-size: 26px;
 }
 
-.menuitem span{
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
+.menuitem span {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 #nav {
-    margin: 0;
+  margin: 0;
 }
 
 /* -------------------------------------------------- Hover.css */
 
-
 a.hvr-sweep-to-bottom:before {
-    background: rgba(0,0,0,0.2);
-    height: 120px;
+  background: rgba(0, 0, 0, 0.2);
+  height: 120px;
 }
 
 /* -------------------------------------------------- Footer */
 
 footer {
-    background-color: #090b0d;
-    color:#fafafa;
-    min-height: 120px;
-    margin: 0;
+  background-color: #090b0d;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
 }
 
 .cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+  font-size: 18px;
+  color: #fafafa;
+  text-align: center;
+  padding-left: 5px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover{
-    color: #d94f30;
+.cv-pdf i:hover {
+  color: #d94f30;
 }
 
-.social-links{
-    padding-bottom: 15px;
+.social-links {
+  padding-bottom: 15px;
 }
 
-.social-links li a i{
-    width: 32px;
-    height: 32px;
-    padding: 12px 0px;
-    border-radius: 50%;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0px;
+  border-radius: 50%;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover{
-   background-color: #d94f30; 
+.social-links li a i:hover {
+  background-color: #d94f30;
 }
 
-#footer-details{
-    padding: 20px;
+#footer-details {
+  padding: 20px;
 }
-
 
 /* -------------------------------------------------- Three Reasons */
 
-.three-reasons-icon{
-    font-size:26px;
-    color: #d94f30;
+.three-reasons-icon {
+  font-size: 26px;
+  color: #d94f30;
 }
 
-.three-reasons-heading{
-    margin-top: 20px;
-    color: #d94f30;
-    padding: 20px;
+.three-reasons-heading {
+  margin-top: 20px;
+  color: #d94f30;
+  padding: 20px;
 }
 
-.about-me{
-    text-align: justify;
-    padding: 20px;
+.about-me {
+  text-align: justify;
+  padding: 20px;
 }
 
 /* -------------------------------------------------- Personal Info */
 
-.personal-info-item{
-    margin-bottom: 20px;
-    display: block;
-    clear: both;  
-    color: #fafafa;  
+.personal-info-item {
+  margin-bottom: 20px;
+  display: block;
+  clear: both;
+  color: #fafafa;
 }
 
 .personal-info-item .key,
-.personal-info-item .value{
-    padding-right: 8px;
-    display: inline-block;
+.personal-info-item .value {
+  padding-right: 8px;
+  display: inline-block;
 }
 
 .personal-info-item .key p,
-.personal-info-item .value p{
-    margin:0;
+.personal-info-item .value p {
+  margin: 0;
 }
 
-.personal-info-item .key{
-    width: 30%;
-    margin-right: 21px;
-    padding-top: 2px;
-    vertical-align: top;
+.personal-info-item .key {
+  width: 30%;
+  margin-right: 21px;
+  padding-top: 2px;
+  vertical-align: top;
 }
 
-.personal-info-item .key p{
-    font-weight: 700;
-    font-family: "Roboto", sans-serif;
-}
-    
-.personal-info-item .value{
-    position: relative;
-    width: 60%;
+.personal-info-item .key p {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
 }
 
-.work-history-title{
-    color: #fafafa;
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 50px;
+.personal-info-item .value {
+  position: relative;
+  width: 60%;
 }
 
-.timeline-item-home{
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    border-left: 1px solid;
+.work-history-title {
+  color: #fafafa;
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
-.timeline-item-home p{
-    padding: 0;
-    margin: 0;
+.timeline-item-home {
+  padding: 4em 2em 0em 2em;
+  position: relative;
+  border-left: 1px solid;
 }
 
-.timeline-item-home:before{
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
+.timeline-item-home p {
+  padding: 0;
+  margin: 0;
 }
 
-.timeline-item-home:after{
-    width:12px;
-    height: 12px;
-    display: block;
-    position: absolute;
-    top: 2.4em;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
+.timeline-item-home:before {
+  content: attr(data-dates);
+  position: absolute;
+  left: 2.5em;
+  top: 3em;
+  display: block;
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline-item-home:after {
+  width: 12px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  top: 2.4em;
+  left: -6px;
+  border-radius: 12px;
+  content: "";
 }
 
 /* -------------------------------------------------- CV / PROJECTS */
 
-
-.cv-heading{
-    margin-top: 20px;
-    color: #594302;
-    padding: 20px;
+.cv-heading {
+  margin-top: 20px;
+  color: #594302;
+  padding: 20px;
 }
 
-.project-heading{
-    margin: 20px;
-    color: #090b0d;
-    padding: 20px;    
+.project-heading {
+  color: #fafafa;
+  margin-top: 30%;
+  font-family: "roboto", sans-serif;
+  font-weight: 900;
+  font-size: 300%;  
 }
 
-.project-heading:hover{
-    margin: 20px;
-    color: #090b0d;
-    padding: 20px;
+.project-heading:hover {
+  color: #fafafa;
+  margin-top: 30%;
+  font-family: "roboto", sans-serif;
+  font-weight: 900;
+  font-size: 300%;
+  text-decoration: underline;
 }
 
-.project-link{
-    padding: 20px;
+.project-1 {
+  height: 500px;
+  background-image: url("../images/no_boundaries.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
 }
 
+.project-2 {
+  height: 500px;
+  background-image: url("../images/visit_stafford.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
 
 /* -------------------------------------------------- Work History */
 
-.work-history-title{
-    color: #fafafa;
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 50px;
+.work-history-title {
+  color: #fafafa;
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
-.timeline-item{
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
+.timeline-item {
+  padding: 4em 2em 0em 2em;
+  position: relative;
+  color: #fafafa;
+  border-left: 1px solid;
 }
 
-.timeline-item p{
-    padding: 0;
-    margin: 0;
+.timeline-item p {
+  padding: 0;
+  margin: 0;
 }
 
-.timeline-item:before{
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
+.timeline-item:before {
+  content: attr(data-dates);
+  position: absolute;
+  left: 2.5em;
+  top: 3em;
+  display: block;
+  font-family: "Exo", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
 }
 
-.timeline-item:after{
-    width:12px;
-    height: 12px;
-    display: block;
-    position: absolute;
-    top: 2.4em;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
+.timeline-item:after {
+  width: 12px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  top: 2.4em;
+  left: -6px;
+  border-radius: 12px;
+  content: "";
+  background: #fafafa;
 }
 
-.history-items{
-    margin-bottom: 30px;
+.history-items {
+  margin-bottom: 30px;
 }
 
 /* -------------------------------------------------- About / Interests */
 
-.interests-heading{
-    margin-top: 20px;
-    color: #3207B0;
-    padding: 20px;
+.interests-heading {
+  margin-top: 20px;
+  color: #3207b0;
+  padding: 20px;
 }
 
 /* -------------------------------------------------- Contact Form */
 
-.contact-heading{
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
+.contact-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
 
-.center-form{
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;    
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
 }
 
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #090b0d;
-    background-color: #fafafa;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #090b0d;
+  background-color: #fafafa;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 
-input{
-    margin-bottom:5px;
+input {
+  margin-bottom: 5px;
 }
-
 
 /* -------------------------------------------------- Media Query */
 
-@media(min-width: 992px) {
-    .center-form{
+@media (min-width: 992px) {
+  .center-form {
     padding-top: 30px;
     margin: 0 auto;
     max-width: 50%;
     min-height: 240px;
-}
+  }
 }
 
-
-#map{
-    margin-bottom: 20px;
+#map {
+  margin-bottom: 20px;
 }
