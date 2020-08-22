@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900|Exo:100,200,300,400,500,600,700");
 
 /* -------------------------------------------------- Colors */
 
@@ -189,9 +189,9 @@ h1, h2, h3, h4{
   }
 
 .name {
-  font-family: "Exo", sans-serif;
-  font-weight: 100;
-  font-size: 46px;
+  font-family: "robotto", sans-serif;
+  font-weight: 900;
+  font-size: 80px;
   margin-top: 50px;
   color: #ffffff;
 }
@@ -215,7 +215,7 @@ h1, h2, h3, h4{
 
 #nav li {
     font-size: 14px;
-    padding: 0;
+    padding: 0px;
 }
 
 .menuitem{
@@ -232,7 +232,7 @@ h1, h2, h3, h4{
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 35px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -489,6 +489,14 @@ footer {
     margin-bottom: 30px;
 }
 
+/* -------------------------------------------------- About / Interests */
+
+.interests-heading{
+    margin-top: 20px;
+    color: #3207B0;
+    padding: 20px;
+}
+
 /* -------------------------------------------------- Contact Form */
 
 .contact-heading{
@@ -525,4 +533,8 @@ input{
     max-width: 50%;
     min-height: 240px;
 }
+}
+
+#map{
+    margin-bottom: 20px;
 }
