@@ -537,6 +537,13 @@ input {
 label {
   font-family: "roboto", sans-serif;
   font-weight: 500;
+  color: #090b0d;
+}
+
+.form-control {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  color: #090b0d;
 }
 
 .btn-primary {
@@ -546,11 +553,22 @@ label {
   margin-top: 10px;
   font-family: "roboto", sans-serif;
   font-weight: 500;
+  padding: 20px;
 }
 
-.thank-you{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.btn-primary:hover {
+  color: #090b0d;
+  background-color: #fafafa;
+  border-color: #fafafa;
+  margin-top: 10px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.thank-you {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* -------------------------------------------------- Media Query */
