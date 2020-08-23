@@ -427,7 +427,7 @@ footer {
   margin-top: 30%;
   font-family: "roboto", sans-serif;
   font-weight: 900;
-  font-size: 300%;  
+  font-size: 300%;
 }
 
 .project-heading:hover {
@@ -525,18 +525,32 @@ footer {
   margin-bottom: 20px;
 }
 
-.center-form {
-  padding-top: 10px;
+#contact-form {
+  padding-top: 50px;
   margin: 0 auto;
-  max-width: 70%;
 }
 
 input {
   margin-bottom: 5px;
 }
 
-.btn-primary{
-    margin-top: 10px;
+label {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+}
+
+.btn-primary {
+  color: #fafafa;
+  background-color: #090b0d;
+  border-color: #090b0d;
+  margin-top: 10px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+}
+
+.thank-you{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* -------------------------------------------------- Media Query */
